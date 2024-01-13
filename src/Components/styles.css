@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+.main{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: hsl(206, 99%, 31%);
+}
+
+.top{
+    height: auto;
+    background-color: #424242;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Recursive', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header{
+    background-color: #424242;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Recursive', sans-serif ;
+    font-weight: 1000;
+}
+
+.day{
+    padding: 20px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.temp{
+    padding: 20px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sunrise-sunset{
+    padding: 20px;
+    color: whitesmoke;
+    font-family: 'Recursive',sans-serif;
+    font-size: 18px;
+}
+
+.description{
+    padding: 20px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.button{
+    width: 45px;
+    height: 40px;
+} 
+
+.loading-container {
+    height: 200vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loader-container {
+    background-color: rgba(0, 0, 0, 1); 
+    padding: 50px;
+    border-radius: 15px;
+  }
+  
+  .loader-text {
+    color: white; 
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
